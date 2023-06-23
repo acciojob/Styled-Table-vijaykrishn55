@@ -1,1 +1,28 @@
 /* your code */
+table {
+    border-collapse: separate;
+    border-spacing:0;
+   
+   
+  }
+  
+  #tab {
+    border-radius: 10px;
+    overflow: hidden;
+   
+  }
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    width: 140px;
+}
+
+th {
+    background-color: #215a8e;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f1f1;
+}
